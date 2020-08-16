@@ -1,0 +1,62 @@
+#survey-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    border-radius: 10px;
+}
+label {
+    margin: 10px 10px;
+    font-size: 18px;
+    font-family: 'Open Sans', serif;
+}
+
+div {
+    margin: 10px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Open Sans', serif;
+}
+
+form {
+    background-color: hsl(180, 20%, 70%);
+    padding: 1%
+}
+
+p {
+    font-size: 18px;
+}
+input, select, textarea, button {
+    font-size: 16px;
+    border-radius: 5px;
+    line-height: 1.5;
+    margin: 10px;
+    padding: 5px;
+}
+h1, p {
+    font-family: 'Open Sans', serif;
+}
+
+textarea {
+    width: 100%;
+    resize: vertical;
+    min-height: 100px;
+}
+
+#submit {
+    background-color: hsl(180, 20%, 70%);
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+h1 {
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
