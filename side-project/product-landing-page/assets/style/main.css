@@ -1,0 +1,79 @@
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #333333;
+    flex-wrap: no-wrap;
+    padding: 10px;
+    font-family: 'Open Sans', serif;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+#nav-bar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.nav-link {
+    color: hsl(0, 0%, 100%);
+    text-decoration: none;
+    font-size: 18px;
+    margin: 0 20px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(0, 0%, 65%);
+    min-height: 100vh;
+}
+
+#form {
+    font-size: 16px;
+    font-family: 'Open Sans', serif;
+    margin: 20px 0;
+}
+
+#submit {
+    padding: 5px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+label {
+    margin: 10px 10px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Open Sans', serif;
+}
+
+input {
+    font-size: 16px;
+    border-radius: 5px;
+    line-height: 1.5;
+    margin: 10px;
+    padding: 5px;
+}
+
+#pricing {
+    font-size: 22px;
+    font-family: 'Open Sans', serif;
+}
+
+@media (max-width: 360px) {
+    #pricing {
+        font-size: 20px;
+    }
+}
